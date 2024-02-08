@@ -6,10 +6,10 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Huilong Chen's Homepage!"
+title                    : "Huilong Chen"
 description              : "Welcome to Huilong Chen's Homepage!"
 repository               : "huilong-chen/huilong-chen.github.io"
-google_scholar_stats_use_cdn : false
+google_scholar_stats_use_cdn : true
 
 # google analytics
 # google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
@@ -22,13 +22,13 @@ google_scholar_stats_use_cdn : false
 # Site Author
 author:
   name             : "Huilong Chen"
-  avatar           : "images/android-chrome-512x512.png"
+  avatar           : "images/avatar.jpeg"
   bio              : "Enjoy all moments!"
   location         : "Beijing, China"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=bBH9VSQAAAAJ"
-  email            : "chenhuilong996@gmail.com;chenhuilong@stu.pku.edu.cn"
+  email            : "chenhuilong@stu.pku.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

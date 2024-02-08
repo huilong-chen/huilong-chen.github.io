@@ -28,11 +28,17 @@ My research interest includes backend development, large language model and comp
 # 📝 Publication(s)
 
 ### 🌲 Computer Vision
-- Chenxin Li\#, **Huilong Chen\#**, Xinyu Han, Xiao Pan, and Dongmei Niu\*
+- [An improved Criminisi method for image inpainting](https://iopscience.iop.org/article/10.1088/1742-6596/2253/1/012023/meta) 
   
-  [An improved Criminisi method for image inpainting](https://iopscience.iop.org/article/10.1088/1742-6596/2253/1/012023/meta)
+  Chenxin Li\#, **Huilong Chen\#**, Xinyu Han, Xiao Pan, and Dongmei Niu\*
 
   2022 2nd International Conference on Digital Image and Video Processing (CDIVP 2022)
+
+- Inference Attacks Against Face Recognition Model without Classification Layers. 
+
+  [arXiv preprint 2024](https://arxiv.org/abs/2401.13719)
+
+  Yuanqing Huang, **Huilong Chen**, Yinggui Wang and Le Yang.
 
 # 📖 Educations
 - *2022.09 - Present*, Master in Electronic Information
@@ -48,7 +54,7 @@ My research interest includes backend development, large language model and comp
   Advisor: Prof. [Dongmei Niu](https://yanzhao.ujn.edu.cn/gms/ds/dszlgl/enterViewDszl4Sd)
 
 # 💻 Internships
-<!-- - *2023.10 - Precent*, Ant Group, Beijing, China. -->
+- *2023.10 - Precent*, Ant Group, Beijing, China.
 - *2022.11 - 2023.09*, ByteDance, Beijing, China.
 
 # 🎖 Honors and Awards
