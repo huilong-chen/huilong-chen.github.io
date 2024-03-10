@@ -23,7 +23,7 @@ My research interest includes backend development, large language model and comp
 
 # 🔥 News
 - *2023.09*: &nbsp;🔥 Ended interning from ByteDance (Beijing)
-- *2023.07*: &nbsp;🎉 Got my first citation (by [Bhele S et al., 2023](https://link.springer.com/article/10.1007/s11042-023-15370-5)) （When I was ready to give up research 😭）!
+- *2023.07*: &nbsp;🎉 Got my first citation (by [Bhele S et al., 2023])!
 
 # 📝 Publication(s)
 
@@ -54,7 +54,8 @@ My research interest includes backend development, large language model and comp
   Advisor: Prof. [Dongmei Niu](https://yanzhao.ujn.edu.cn/gms/ds/dszlgl/enterViewDszl4Sd)
 
 # 💻 Internships
-- *2023.10 - Precent*, Ant Group, Beijing, China.
+- *2023.10 - 2024.04*, Ant Group, Beijing, China.
+- *2023.11 - 2024.03*, HKUST, HongKong, China.
 - *2022.11 - 2023.09*, ByteDance, Beijing, China.
 
 # 🎖 Honors and Awards
