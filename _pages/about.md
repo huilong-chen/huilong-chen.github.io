@@ -17,12 +17,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-My research interest includes backend development, large language model and computer vision. 
+My research interest includes large language model, computer vision and backend development. 
 <!-- I have published one paper only at CDIVP 2022 with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar</a> <img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>. -->
 
 
 # 🔥 News
-- *2023.09*: &nbsp;🔥 Ended interning from ByteDance (Beijing)
+- *2024.04*: &nbsp;🔥 Ended interning from Ant Group (Beijing)!
+- *2023.09*: &nbsp;🤗 Ended interning from ByteDance (Beijing)!
 - *2023.07*: &nbsp;🎉 Got my first citation (by [Bhele S et al., 2023])!
 
 # 📝 Publication(s)
