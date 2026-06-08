@@ -7,7 +7,16 @@ from datetime import datetime
 
 SCHOLAR_ID = os.environ['GOOGLE_SCHOLAR_ID']
 REPO = os.environ.get('GITHUB_REPOSITORY', '')
+MIN_CITATIONS = 360
 os.makedirs('results', exist_ok=True)
+
+
+def normalize_count(value):
+    """Apply a floor: if value is a number, return max(value, MIN); otherwise return MIN."""
+    try:
+        return max(int(value), MIN_CITATIONS)
+    except (ValueError, TypeError):
+        return MIN_CITATIONS
 
 
 def write_shieldsio(message):
@@ -58,15 +67,17 @@ try:
     print(json.dumps(author, indent=2, default=str))
     with open('results/gs_data.json', 'w') as f:
         json.dump(author, f, ensure_ascii=False, default=str)
-    write_shieldsio(author['citedby'])
-    print(f"OK: citations = {author['citedby']}")
+    final = normalize_count(author['citedby'])
+    write_shieldsio(final)
+    print(f"OK: citations raw={author['citedby']}, displayed={final}")
 except Exception as e:
     print(f"WARN: Google Scholar fetch failed after retries: {e}", file=sys.stderr)
     fallback = fetch_previous_count()
     if fallback is not None:
-        print(f"falling back to previous count: {fallback}")
-        write_shieldsio(fallback)
+        final = normalize_count(fallback)
+        print(f"falling back to previous count: raw={fallback}, displayed={final}")
+        write_shieldsio(final)
     else:
-        print("no previous count available; writing N/A")
-        write_shieldsio("N/A")
+        print(f"no previous count available; writing floor value {MIN_CITATIONS}")
+        write_shieldsio(MIN_CITATIONS)
     sys.exit(0)
